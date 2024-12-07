@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mainwindow</class>
+ <widget class="QWidget" name="Mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1015</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1600</width>
+    <height>1015</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1600</width>
+    <height>1015</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(193, 193, 193);</string>
+  </property>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>1015</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1600</width>
+     <height>1015</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1600</width>
+     <height>1015</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>1588</width>
+      <height>1002</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QFrame" name="frame1_2">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>950</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>950</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame#frame_2{
+	background-color: rgba(255, 255, 255, 255);
+	border-radius:20px;
+}</string>
+       </property>
+       <widget class="QFrame" name="frame_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>220</y>
+          <width>300</width>
+          <height>800</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>800</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>800</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QWidget" name="">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>9</y>
+           <width>291</width>
+           <height>721</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4" columnstretch="0,0">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QWidget" name="widget_14" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/背心_vest.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #424242;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>图像预处理</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #424242;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>病变诊断</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #424242;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>血管分割</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QWidget" name="widget_20" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/处方_prescription.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #424242;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>图像锐化</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QWidget" name="widget_19" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/外部传输_external-transmission.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_1">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+	color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #334257;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>灰度/二值化</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QWidget" name="widget_21" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/眼睛_eyes.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QWidget" name="widget_18" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/3D眼镜_three-d-glasses.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: #fafafa;
+	color:#334257;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+	font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 24px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #f5f5f5;
+    
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #616161;
+    color: #334257;
+}
+
+#button3 {
+    border-radius: 20px;
+}
+font: 9pt &quot;微软雅黑&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>图像翻转</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QWidget" name="widget_13" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/buttom/img/buttom/全景水平_panorama-horizontal.svg);
+border:3px solid rgb(255, 255, 255);
+
+border-radius:32px</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>8</y>
+          <width>281</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QFrame" name="frame_6">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QWidget" name="widget_8" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">image: url(:/svg/Morikawa/01_Data/img/image/image.png);
+border-radius:45px;
+background-color: rgb(223, 223, 223);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(22, 54, 53)</string>
+            </property>
+            <property name="text">
+             <string>Gwansy</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(102, 128, 127);</string>
+            </property>
+            <property name="text">
+             <string>Pro Member</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="frame" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>1280</width>
+         <height>1000</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>1280</width>
+         <height>1000</height>
+        </size>
+       </property>
+       <widget class="QWidget" name="">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>11</y>
+          <width>1252</width>
+          <height>981</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>18</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(22, 54, 53)</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;欢迎使用糖尿病视网膜病变智能诊疗系统&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="font">
+            <font>
+             <family>Bodoni MT</family>
+             <pointsize>20</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(22, 54, 53)</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Welcome to the intelligent diagnosis and treatment system for diabetic retinopathy&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame11">
+           <property name="minimumSize">
+            <size>
+             <width>1250</width>
+             <height>880</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>1250</width>
+             <height>880</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QFrame {
+    background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #009695, stop:0.33 #71b9b7, stop:0.66 #b5dcda, stop:1 #f7ffff);
+;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

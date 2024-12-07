@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>964</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QScrollBar:horizontal{
+    height:8px;
+    background:rgba(0,0,0,0%);
+border-radius:4px;
+
+}
+QScrollBar::handle:horizontal{
+    background:rgba(125,125,125,50%);
+border-radius:4px;
+}
+QScrollBar::handle:horizontal:hover{
+    background:rgba(125,125,125,100%);
+    min-width:0;
+}
+QScrollBar::add-line:horizontal{
+    height:0px;width:0px;
+
+}
+QScrollBar::sub-line:horizontal{
+    height:0px;width:0px;
+
+}
+QScrollBar::add-line:horizontal:hover{
+    height:0px;width:0px;
+
+}
+QScrollBar::sub-line:horizontal:hover{
+    height:0px;width:0px;
+
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+QScrollBar:vertical{
+    width:8px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical{
+    width:0px;
+    background:rgba(125,125,125,50%);
+    border-radius:4px;
+}
+QScrollBar::handle:vertical:hover{
+    width:0px;
+    background:rgba(125,125,125,100%);
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::add-line:vertical{
+    height:0px;width:0px;
+
+}
+QScrollBar::sub-line:vertical{
+    height:0px;width:0px;
+
+}
+QScrollBar::add-line:vertical:hover{
+    height:0px;width:0px;
+
+}
+QScrollBar::sub-line:vertical:hover{
+    height:0px;width:0px;
+
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame{
+	background-color: rgba(255, 255, 255, 150);
+	border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,4">
+       <property name="spacing">
+        <number>12</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">QFrame#frame_2{
+	background-color: rgba(255, 255, 255, 255);
+	border-radius:20px;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0">
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>36</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="styleSheet">
+             <string notr="true">border:none</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="topMargin">
+              <number>24</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_6" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>65</width>
+                 <height>65</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>65</width>
+                 <height>65</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/svg/Morikawa/01_Data/img/image/image.png);
+border-radius:32px;
+background-color: rgb(223, 223, 223);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(22, 54, 53)</string>
+            </property>
+            <property name="text">
+             <string>Erduo</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(102, 128, 127);</string>
+            </property>
+            <property name="text">
+             <string>Pro Member</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QListView {
+	padding-top:24px;
+	border-radius: 20px;
+	color: rgb(106, 106, 106);
+}
+QListView::item{
+background-color: transparent;
+height:40px;
+padding-left:12px;
+padding:12px;
+}
+QListView::item:hover {
+	background-color: rgba(216, 216, 216, 50);
+
+}
+QListView::item:selected {
+	/*background-color: transparent;*/
+	background-color: rgba(90, 216, 212,50);
+	color: rgb(40, 92, 90);
+border-left: 2px solid rgb(90, 216, 212)
+
+
+}
+</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>血管分割</string>
+             </property>
+             <property name="icon">
+              <iconset resource="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc">
+               <normaloff>:/buttom/img/buttom/未读消息_message-unread.svg</normaloff>:/buttom/img/buttom/未读消息_message-unread.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>图像增强</string>
+             </property>
+             <property name="icon">
+              <iconset resource="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc">
+               <normaloff>:/buttom/img/buttom/任天堂游戏_switch-nintendo.svg</normaloff>:/buttom/img/buttom/任天堂游戏_switch-nintendo.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>图像预处理</string>
+             </property>
+             <property name="icon">
+              <iconset resource="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc">
+               <normaloff>:/buttom/img/buttom/仪表盘_dashboard-one.svg</normaloff>:/buttom/img/buttom/仪表盘_dashboard-one.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>病变诊断</string>
+             </property>
+             <property name="icon">
+              <iconset resource="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc">
+               <normaloff>:/buttom/img/buttom/中指_middle-finger.svg</normaloff>:/buttom/img/buttom/中指_middle-finger.svg</iconset>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,1">
+         <property name="spacing">
+          <number>12</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="styleSheet">
+            <string notr="true">.QFrame{
+	background-color: rgba(255, 255, 255, 0);
+	border-radius:20px;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="topMargin">
+             <number>24</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="font">
+               <font>
+                <pointsize>18</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(22, 54, 53)</string>
+              </property>
+              <property name="text">
+               <string>欢迎使用糖尿病视网膜病变智能诊疗系统</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QLineEdit" name="lineEdit">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>32</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLineEdit{
+	background-color: rgba(245, 244, 246,200);
+border:0px solid red;
+border-radius:14px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Welcome to the Diabetic Retinopathy Intelligent Diagnosis and Treatment System！</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true">.QFrame{
+	background-color: rgba(255, 255, 255, 0);
+	border-radius:20px;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QFrame" name="frame_6">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_11" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>554</width>
+                <height>121</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>121</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">.QWidget{
+	background-color: qlineargradient(x1:0, y0:0, x2:1, y2:0,stop:0 rgb(234, 249, 253), stop:1 rgb(155, 230, 237));
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+}
+
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="E:/关斯元大创材料1/dccl/暂存/PyQt5/可视化界面/Copying_1006/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

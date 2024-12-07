@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formwin1</class>
+ <widget class="QWidget" name="Formwin1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_load">
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #bdc3c7, stop:0.51 #2c3e50, stop:1 #bdc3c7);
+    border: 2px solid #bdc3c7; /* 初始状态下的边框颜色 */
+    padding: 10px 45px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 10px;
+    color: white; /* 文字颜色为白色 */
+    transition: box-shadow 0.5s, background-position 0.5s, border-color 0.5s; /* 添加过渡效果 */
+    background-size: 200% auto;
+font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 14px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-position: 100% 0; /* 改变背景位置以实现渐变的滑动效果 */
+    border-color: #2c3e50; /* 悬浮时边框颜色调整为渐变的中间颜色 */
+    color: white; /* 鼠标悬浮时保持文字颜色为白色 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 增加悬浮阴影效果 */
+}
+
+QPushButton:pressed, QPushButton:checked {
+    /* 按下和选中时，你可以选择保持渐变效果或设置不同的样式 */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #2c3e50, stop:1 #bdc3c7); /* 示例：反转渐变的方向 */
+    color: white; /* 按下时保持文字颜色为白色 */
+    border-color: #2c3e50; /* 按下时边框颜色调整为渐变的深色 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>选 择 图 片</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_jieguo">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>350</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;结果&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_daichuli">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>350</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;待处理&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_save">
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #bdc3c7, stop:0.51 #2c3e50, stop:1 #bdc3c7);
+    border: 2px solid #bdc3c7; /* 初始状态下的边框颜色 */
+    padding: 10px 45px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 10px;
+    color: white; /* 文字颜色为白色 */
+    transition: box-shadow 0.5s, background-position 0.5s, border-color 0.5s; /* 添加过渡效果 */
+    background-size: 200% auto;
+font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 14px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-position: 100% 0; /* 改变背景位置以实现渐变的滑动效果 */
+    border-color: #2c3e50; /* 悬浮时边框颜色调整为渐变的中间颜色 */
+    color: white; /* 鼠标悬浮时保持文字颜色为白色 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 增加悬浮阴影效果 */
+}
+
+QPushButton:pressed, QPushButton:checked {
+    /* 按下和选中时，你可以选择保持渐变效果或设置不同的样式 */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #2c3e50, stop:1 #bdc3c7); /* 示例：反转渐变的方向 */
+    color: white; /* 按下时保持文字颜色为白色 */
+    border-color: #2c3e50; /* 按下时边框颜色调整为渐变的深色 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>保 存 图 片</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_turntoGray">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color:#00ebc7 ; /* 深青色背景 */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #3A6073; /* 边框颜色与背景色一致 */
+    text-align: center;
+    text-transform: uppercase;
+    transition: box-shadow 0.5s;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 5px;
+font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 14px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #3A6073; /* 悬浮时改为更深的颜色 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 增加悬浮阴影效果 */
+}
+
+QPushButton:pressed, QPushButton:checked {
+    background-color: #3A6073; /* 按下时使用更深的颜色 */
+    border: 1px solid #616161; /* 按下时边框颜色调整为更深 */
+    color: #fff; /* 维持字体颜色为白色 */
+}
+
+#button3 {
+    border-radius: 20px; /* 特定按钮的圆角 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>转成灰度图</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_turntotwo">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color:#00ebc7 ; /* 深青色背景 */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #3A6073; /* 边框颜色与背景色一致 */
+    text-align: center;
+    text-transform: uppercase;
+    transition: box-shadow 0.5s;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 5px;
+font-family: &quot;Arial&quot;; /* 添加字体族 */
+    font-size: 14px; /* 添加字体大小 */
+    font-weight: bold; /* 添加字体粗细 */
+    font-style: normal; /* 添加字体风格 */
+}
+
+QPushButton:hover {
+    background-color: #3A6073; /* 悬浮时改为更深的颜色 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 增加悬浮阴影效果 */
+}
+
+QPushButton:pressed, QPushButton:checked {
+    background-color: #3A6073; /* 按下时使用更深的颜色 */
+    border: 1px solid #616161; /* 按下时边框颜色调整为更深 */
+    color: #fff; /* 维持字体颜色为白色 */
+}
+
+#button3 {
+    border-radius: 20px; /* 特定按钮的圆角 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>将图片二值化</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
